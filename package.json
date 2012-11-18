@@ -1,0 +1,27 @@
+{
+  "name": "tweet-n-trace",
+  "version": "0.0.0",
+  "description": "A tool to grab RMG tracking consignment codes from tweets.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/datr/tweet-n-trace.git"
+  },
+  "author": "Dean Reilly",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "cron": "1.0.x",
+    "mongodb": "1.1.x",
+    "socket.io": "0.9.x",
+    "twitter": "0.1.x",
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  }
+}
